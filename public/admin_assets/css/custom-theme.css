@@ -1,0 +1,92 @@
+/* Custom Theme Changes */
+.bg-menu-theme .menu-sub>.menu-item.ml1{
+    margin-left: 1rem;
+}
+
+.bg-menu-theme .menu-item.active>.menu-link:not(.menu-toggle){
+    background-color: #D6272B;
+}
+.bg-menu-theme, .bg-menu-theme .menu-inner>.menu-item.active{
+    background-color: #262525 !important;
+}
+.bg-menu-theme .menu-header{
+    color: #a1abb5;
+}
+.page-item.active .page-link, .page-item.active .page-link:hover, .page-item.active .page-link:focus, .pagination li.active>a:not(.page-link), .pagination li.active>a:not(.page-link):hover, .pagination li.active>a:not(.page-link):focus{
+    border-color: #ff5b5c;
+    background-color: #ff5b5c;
+}
+.breadcrumb-wrapper a{
+    color: #D6272B;
+    font-weight: 500;
+}
+table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before, table.dataTable.dtr-inline.collapsed>tbody>tr>th.dtr-control:before{
+    background-color: #D6272B;
+}
+.switch-primary.switch .switch-input:checked~.switch-toggle-slider{
+    background: #d6272b;
+}
+/* .btn-primary{
+    background-color: #d6272b;
+    border-color: #d6272b;
+}
+.btn-primary:hover{
+    background-color: #d35255;
+    border-color: #d35255;
+} */
+.form-control:focus, .form-select:focus, .input-group:focus-within .form-control, .input-group:focus-within .input-group-text{
+    border-color: #d6272b;
+}
+.form-check-input:checked{
+    border-color: #d6272b;
+    background-color: #d6272b;
+}
+.card .card-body.bg-dark{
+    background-color: #3e3d3d !important;
+}
+
+.layout-horizontal .app-brand-logo.demo{
+    align-items: unset;
+    justify-content: unset;
+    width: auto;
+    height: 50px;
+}
+.bg-menu-theme.menu-horizontal .menu-inner>.menu-item.active>.menu-link{
+    background-color: #d6272b !important;
+}
+.app-brand .layout-menu-toggle i, .authentication-wrapper .authentication-bg p a{
+    color: #d6272b;
+}
+.authentication-wrapper .bs-stepper .step.active .bs-stepper-circle{
+    background-color: #d6272b !important;
+}
+.authentication-wrapper .bs-stepper .step.active .step-trigger::after{
+    background-color: #d6272b;
+}
+.authentication-wrapper .bs-stepper .step.active .bs-stepper-label{
+    color: #d6272b !important;
+}
+.authentication-wrapper .bs-stepper .step.crossed .step-trigger .bs-stepper-circle{
+    border-color: #d6272b !important;
+}
+.authentication-wrapper .bs-stepper .step.crossed .step-trigger::after{
+    background-color: #d6272b;
+}
+
+#melding_offcanvas .custom-option.checked{
+    border: 1px solid #d6272b;
+}
+
+.pageFaq .faq-header:before, .pageFaq .faq-header:after{
+    background: none !important;
+}
+.pageFaq .faq-header{
+    background-color: rgb(231 233 235) !important;
+}
+.pageFaq .bg-label-primary{
+    background-color: #fecdcd91 !important;
+    color: #fe0000 !important;
+}
+.pageFaq .accordion.accordion-header-primary .accordion-item.active .accordion-button {
+    color: #333 !important;
+}

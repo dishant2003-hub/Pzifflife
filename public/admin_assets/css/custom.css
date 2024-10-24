@@ -1,0 +1,239 @@
+#formEducationSection #snow-editor,
+#formEducationSection #snow-toolbar {
+    width: 100%;
+}
+
+.coverImg100,
+.tableImg {
+    object-fit: contain;
+    width: 80px;
+    height: 80px;
+}
+
+.coverImg150 {
+    object-fit: contain;
+    width: 100%;
+    height: 150px;
+}
+
+#divInquirySection .diamondShape img {
+    height: 25px;
+    object-fit: contain;
+    width: 25px;
+}
+
+.w125 {
+    width: 125px;
+}
+
+aside .app-brand .app-brand-logo img {
+    height: 40px;
+    width: 150px;
+    object-fit: contain;
+}
+
+.layout-navbar .nav-item .avatar img {
+    height: 40px;
+    width: 50px;
+    object-fit: contain;
+}
+
+#DataTables_Table_0_info {
+    display: none;
+}
+
+/* .avatar_preview img{
+    width:100px;
+    height:100px;
+} */
+
+div.dataTables_wrapper .table.dataTable thead th:first-child {
+    width: 80px;
+}
+
+div.dataTables_wrapper .table.dataTable thead th:last-child {
+    width: 100px;
+}
+
+div.dataTables_wrapper .table.dataTable thead th:nth-last-child(2) {
+    width: 70px;
+}
+
+div.dataTables_wrapper .table.dataTable thead th:nth-last-child(3) {
+    width: 150px;
+}
+
+form .form-group label.control-label {
+    font-weight: 600;
+}
+
+#rolePermitionForm .mr_ight, #timelinePermissionForm .mr_ight {
+    margin-right: 15px;
+}
+
+#rolePermitionForm .side_bar, #timelinePermissionForm .side_bar {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card-body .custom-option-image .tableorderimg {
+    object-fit: contain;
+    height: 130px !important;
+}
+
+.ctm_workbtn {
+    box-shadow: 0 0.125rem 0.25rem rgb(147 158 170 / 40%);
+    color: #fff;
+    background-color: #495563;
+}
+
+.ctm_workbtn:hover {
+    color: #fff;
+    box-shadow: 0 0.25rem 1rem rgb(147 158 170 / 45%);
+}
+
+.rendered-form .kc-toggle input:checked+span::before {
+    background-color: #d6272b !important;
+}
+
+.my_alert_button {
+    right: 55px !important;
+    background-image: unset !important;
+    padding: 0.80rem 1.25rem !important;
+}
+.timeline .timeline-item .timeline-indicator{
+    height: 1.7rem;
+    width: 1.7rem;
+    /* border: 1px solid #495563;
+    border-color: #495563 !important; */
+}
+.timeline.timeline-center .timeline-item:nth-of-type(odd):not(.timeline-item-left):not(.timeline-item-right) .timeline-event .timeline-event-time {
+    right: -10rem;
+}
+.timeline.timeline-center .timeline-item:nth-of-type(even):not(.timeline-item-left):not(.timeline-item-right) .timeline-event-time {
+    left: -10rem;
+}
+.timeline .timeline-item .timeline_img{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+
+.ft13{
+    font-size: 13px !important;
+}
+.bg-menu-theme .menu-inner .menu-item hr{
+    margin: 8px 0;
+    color: #d4d8dd59;
+}
+
+.page_changelog .smart-badge.smart-badge-primary{
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-weight: 700;
+    font-size: 75%;
+    line-height: 1;
+    border-radius: 0.25rem;
+    color: #ffffff;
+    background-color: #007bff;
+}
+.page_changelog .font-weight-bold {
+    font-weight: 700;
+}
+
+#offcanvasRecordSignature .kbw-signature, #offcanvasRecordSignature .loadSignImg svg, .recordSignatureView .loadSignImg svg{
+    width: 300px;
+    height: 200px;
+}
+
+#offcanvasRecordSignature .loadSignImg img, .recordSignatureView .loadSignImg img{
+    width: 275px;
+    height: 200px;
+    object-fit: contain;
+}
+
+#offcanvasRecordSignature .loadSignImg{
+    border: 2px solid #77777747;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+.recordImageView .mylightgallery img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.leaflet-map .my_map_icon_div .my_map_icon_img{
+    height: 30px;
+    width: 28px;
+}
+.leaflet-map .my_map_icon_div .my_map_icon_text{
+    background: #d6272b;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 2px 10px 1px 10px;
+    border-radius: 10px;
+}
+
+/*.krajee-default.file-preview-frame .kv-file-content.editImageDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+.krajee-default.file-preview-frame .kv-file-content .img50{
+    width: 50% !important;
+}*/
+
+.divRecordImagesTypeedited .timeline_img{
+    width: 213px;
+    height: 160px;
+    object-fit: contain;
+}
+
+.bglight_error{
+    background-color: #d6272b38 !important;
+    color: black;
+}
+
+.download_img{
+    height: 120px !important;
+}
+
+.layout-menu-horizontal{
+    position: fixed;
+    top: 3.875rem;
+}
+
+.bg-orange{background:#f59d00;}
+.bg-blue{background:#227fbb;}
+.bg-green{background:#1aaf5d;}
+.bg-red{background:#c23824;}
+.bg-purple{background:#8f3faf;}
+.bg-navy-blue{background:#2b3e51;}
+.bg-yellow{background:#f2c500;}
+.bg-teal{background:#00a185;}
+
+
+
+.images{
+    position: relative;
+    width: 60%; 
+    margin-left: 55px; 
+    margin-top: 15px;
+}
+.cancel{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 24px;
+}
+
+.dropzone{
+    border: 2px dashed #b6c2d2;
+}

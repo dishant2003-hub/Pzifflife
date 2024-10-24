@@ -1,0 +1,72 @@
+@media (max-width: 767px) {
+    .header .logo img {
+        max-width: 110px !important;
+    }
+}
+
+ 
+a.gflag {
+    vertical-align: middle;
+    font-size: 18px;
+    padding: 1px 5px;
+    background-repeat: no-repeat;
+    background-image: url(public/front/images/32.png);
+}
+
+a.gflag img {
+    border: 0;
+}
+
+a.gflag:hover {
+    background-image: url(public/front/images/32a.png);
+}
+
+#goog-gt-tt {
+    display: none !important;
+}
+
+.goog-te-banner-frame {
+    display: none !important;
+}
+
+.goog-te-menu-value:hover {
+    text-decoration: none !important;
+}
+
+body {
+    top: 0 !important;
+}
+
+#google_translate_element2 {
+    display: none !important;
+}
+.footer-div{
+    .t-blue{color:#ffffff;}
+}
+@media (max-width: 991px) {
+.active-nav{
+    a{
+        color:#ffffff !important;
+    }
+}
+}
+.footer-div h5{
+    border-left: 2px solid #90f502;
+}
+.t-green {
+    color: #90f502;
+}
+
+
+@media (min-width: 1200px){
+    #mBox { width: 65%; }
+}
+.galler_page .container{ position: relative; }
+.filterbox{ position: absolute; right: 16px; top: 0; font-family: 'Open Sans', sans-serif }
+.filterbox label{ margin-right: 4px; }
+@media only screen and (min-width: 510px) and (max-width: 629px) {
+.filterbox{ position: relative; margin-left: 2px; margin-top: 19px; right: 0; }
+}
+@media only screen and (max-width: 509px){
+.filterbox{ position: relative; margin-left: 2px; margin-top: 19px; right: 0; }
+}
